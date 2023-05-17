@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "abdelhamiderrahmouni/my-laravel-package",
+    "description": "This is my package my-laravel-package",
     "keywords": [
-        ":vendor_name",
+        "abdelhamiderrahmouni",
         "laravel",
-        ":package_slug"
+        "my-laravel-package"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/abdelhamiderrahmouni/my-laravel-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abdelhamid Errahmouni",
+            "email": "abdelhamid.errahmouni@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Abdelhamiderrahmouni\\Cart\\": "src/",
+            "Abdelhamiderrahmouni\\Cart\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Abdelhamiderrahmouni\\Cart\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Abdelhamiderrahmouni\\Cart\\CartServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Cart": "Abdelhamiderrahmouni\\Cart\\Facades\\Cart"
             }
         }
     },
