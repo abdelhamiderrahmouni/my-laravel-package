@@ -2,9 +2,9 @@
 
 namespace Abdelhamiderrahmouni\Cart\Tests;
 
+use Abdelhamiderrahmouni\Cart\CartServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Abdelhamiderrahmouni\Cart\CartServiceProvider;
 
 class TestCase extends Orchestra
 {

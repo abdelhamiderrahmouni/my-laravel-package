@@ -2,9 +2,9 @@
 
 namespace Abdelhamiderrahmouni\Cart;
 
+use Abdelhamiderrahmouni\Cart\Commands\CartCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Abdelhamiderrahmouni\Cart\Commands\CartCommand;
 
 class CartServiceProvider extends PackageServiceProvider
 {
